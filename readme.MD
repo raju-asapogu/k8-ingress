@@ -1,11 +1,9 @@
 1. Install OIDC Provider
-
 ```
 eksctl utils associate-iam-oidc-provider \
     --region us-east-1 \
     --cluster roboshop-dev \
     --approve
-
 ```
 2. Download IAM Policy
 ```
